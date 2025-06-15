@@ -124,4 +124,3 @@ else:
     # Submit button
     if st.button("Get Your Result"):
         st.session_state["submitted"] = True
-        st.experimental_rerun()
